@@ -1,0 +1,17 @@
+<!-- lihat data
+{% for data in clientData %}
+<tr>
+    <td scope="row">{{ data["id_client"] }}</td>
+    <td> {{ data["id_client"] }}</td>
+    <td> {{ data["nama"] }}</td>
+    <td> {{ data["desc"] }}</td>
+    <td>
+        <form action="{{ url_for('client')}}" method="GET">
+            <input type="hidden" name="id_client" value="{{ data['id_client'] }}">
+            <input type="hidden" name="nama" value="{{ data['nama'] }}">
+            <input type="hidden" name="desc" value="{{ data['desc'] }}">
+        </form>
+    </td>
+</tr>
+{% endfor %}
+ -->
